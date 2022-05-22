@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "iconfont9"; /* Project id  */
+  src: url('iconfont.ttf?t=1634533760744') format('truetype');
+}
+
+.iconfont9 {
+  font-family: "iconfont9" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shangpin:before {
+  content: "\e619";
+}
+
+.icon-kongxinwujiaoxing:before {
+  content: "\e625";
+}
+
+.icon-duigou:before {
+  content: "\e636";
+}
+

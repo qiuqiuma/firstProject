@@ -1,0 +1,105 @@
+/* 头部视频 */
+.brand_head{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+ 
+}
+.brand_head video{
+    /* width: 100%; */
+    height: 100%;
+}
+/* 视频中文字 */
+.vid_center{
+position: absolute;
+cursor: pointer;
+width: 300px;
+text-align: center;
+left: 50%;
+top: 50%;
+margin-top: -42px;
+margin-left: -150px;
+color: white;
+font-size: 2rem;
+transition: linear 0.2s;
+}
+.vid_center:hover{
+    width: 330px;
+    margin-left: -165px;
+    font-size: 2.2rem;
+}
+/* 中间内容 */
+.brand_center_box{
+    width: 100vw;
+   background-image: url("../img/bg.jpg");
+   background-position: left center;
+   padding-bottom: 3%;
+}
+/* 版心 */
+.brand_center_box .brand_center{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+padding-top: 3%;
+}
+/* 我们是谁 */
+.brand_center_top{
+    /* width: 100%; */
+    padding: 10%;
+    background-color: #fff;
+}
+.brand_top_txt{
+    width: 70%;
+    margin: 0 auto;
+}
+/* 我们的dna */
+.brand_dna{
+    width: 100%;
+    height: 50vh;
+    margin-top: 3%;
+    background-color: #fff;
+}
+.dna_center{
+    width: 70%;
+    margin: 0 auto;
+ 
+}
+.dna_center img{
+    width: 100%;
+}
+/* 我们的使命 */
+.brand_our_box{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brand_our_box>div{
+    width: 45%;
+}
+.brand_our_box>div>img{
+    width: 100%;
+}
+/* 全球realme */
+.brand_g{
+    width: 100%;
+    padding: 5% 0;
+    background-color: #fff;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+.brand_g>div{
+    width: 70%;
+    margin: 0 auto;
+}
+/* 最佳创新 */
+.brand_zuijia{
+    width: 100vw;
+    background-color: #fff;
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+.brand_zuijia img{
+    width: 100%;
+}

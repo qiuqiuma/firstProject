@@ -1,0 +1,230 @@
+/* 顶部 */
+.top_box {
+    height          : 5vh;
+    width           : 100vw;
+    background-color: #003333;
+}
+
+/* 顶部版心 */
+.top_box .head_top {
+    width          : 70%;
+    height         : 100%;
+    margin         : 0 auto;
+    color          : white;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+/* logo */
+.logo {
+    width : 10%;
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+/* 客服 */
+.head_kf {
+    /* width: 8vw; */
+    height         : 100%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    line-height    : 5vh;
+}
+
+/* 登录菜单 */
+.head_right {
+    /* width: 6vw; */
+    height         : 100%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.head_right span,
+.head_right a {
+    line-height: 5vh;
+    color      : white;
+}
+
+/* 登录图标区 */
+.head_icon {
+    width          : 10%;
+    height         : 100%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.head_icon span {
+    font-size  : 1.3rem;
+    line-height: 5vh;
+}
+
+/* --------------- */
+/* 中心部分 */
+.center_box {
+    width              : 100vw;
+    /* background-color: #fff5ff; */
+}
+
+/* 中心头部 */
+.main_top {
+    position        : relative;
+    z-index         : 10;
+    width           : 100%;
+    background-color: #050005;
+    opacity         : 0.2;
+}
+
+/* 版心 */
+.center_main {
+    height  : 15vh;
+    width   : 70%;
+    margin  : 0 auto;
+    position: relative;
+}
+
+/* 导航菜单 */
+.head_left {
+    position       : absolute;
+    height         : 100%;
+    width          : 40%;
+    right          : 2%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    line-height    : 15vh;
+    text-decoration: none;
+}
+
+.head_left li {
+    cursor: pointer;
+    color : white;
+    width : 80px;
+}
+
+.head_left li span {
+    display: inline-block;
+    height : 100px;
+}
+
+
+/* 切换菜单后的导航菜单样式 */
+/* 整个顶部 */
+
+.main_change {
+    background-color: #fff;
+    /* position     : relative; */
+    width           : 100vw;
+    border-bottom   : 1px solid #f0e7f0;
+    /* position     :fixed; */
+}
+
+/* 版心 */
+.center_main_change {
+    height: 8vh;
+    width : 70%;
+    margin: 0 auto;
+}
+
+/* 菜单栏 */
+.head_left_change {
+    margin         : 0 auto;
+    width          : 80%;
+    color          : black;
+    line-height    : 8vh;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+
+}
+
+.head_left_change li {
+    width     : 80px;
+    color     : black;
+    text-align: center;
+}
+
+.head_left_change li span {
+    display          : inline-block;
+    height           : 60px;
+    /* padding-bottom: 2px 0; */
+}
+
+/* 配件&周边 */
+/* 整体 */
+
+.pei_box {
+    width     : 100%;
+    margin-top: 5%;
+}
+
+/* banner */
+.pei_banner {
+    width: 100%;
+}
+
+.pei_banner img {
+    width: 100%;
+}
+
+/* 滚动后 菜单定死 */
+.fix {
+    background-color: #fff;
+    /* position     : relative; */
+    width           : 100vw;
+    border-bottom   : 1px solid #f0e7f0;
+    /* position     :fixed; */
+    position        : fixed;
+    z-index: 999;
+    top             : 0;
+}
+
+/* 登录后 */
+.login_after {
+    position: relative;
+    /* padding : 0 5rem; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login_after .after_list {
+    width           : 60%;
+    height          : 0;
+    overflow        : hidden;
+    position        : absolute;
+    background-color: rgb(148, 204, 241);
+    z-index         : 19;
+    color           : rgb(152, 164, 172);
+    text-align      : center;
+    /* transition   : linear 0.2s; */
+}
+.login_after:hover .after_list{
+    height: 260px;
+  
+}
+.after_list>li {
+    cursor: pointer;
+    color : black;
+}
+
+.after_list>li:hover {
+    color           : white;
+    background-color: rgb(246, 142, 142);
+}
+.cuso:hover{
+    color: #74e418;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.active{
+    color: #74e418;
+    font-size: 1.2rem;
+}

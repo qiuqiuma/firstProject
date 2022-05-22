@@ -1,0 +1,56 @@
+.index_box{
+    height: 70vh;
+    transform: translateY(-15vh);
+}
+/* 轮播图 */
+.swiper-container{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+     height: 100%;
+}
+/* 列表 */
+.swiper-wrapper{
+    width: 500%;
+    height: 100%;
+    position: absolute;
+transition: linear 1s;
+
+}
+.swiper-wrapper .swiper-slide{
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.swiper-wrapper .swiper-slide img{
+    width:100%;
+    height: 100%;
+}
+/* 底部 */
+.foot_box{
+    width: 100vw;
+    height: 25vh;
+}
+.foot{
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot li{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.foot li span:nth-child(1){
+    font-size: 4rem;
+}
+.foot li span:nth-child(2){
+    margin-top: 2%;
+    color: #CCCCCC;
+}

@@ -1,0 +1,268 @@
+/* 版心 */
+.shopping_center{
+    width: 70vw;
+position: relative;
+    margin: 0 auto;
+}
+/* 图片区 */
+.shop_left{
+    width: 40%;
+    height: 50vh;
+    position:fixed;
+
+}
+/* 大图片 */
+.shop_big_img{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+	
+}
+.shop_big_img img{
+    width: 100%;
+}
+/* 缩略图 */
+.shop_small_img{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* 随鼠标移动小方块 */
+.move_box{
+	width: 60px;
+	height: 60px;
+	opacity: 0.2;
+	position: fixed;
+    background-color: #6A6A6A;
+    display: none;
+}
+/* 放大图片 */
+.fang_da{
+    width: 150%;
+    position: absolute;
+    overflow: hidden;
+   display: none;
+}
+.fang_da img{
+    width: 100%;
+    position: absolute;
+}
+.shop_small_img>div{
+    width: 20%;
+    cursor: pointer;
+}
+.shop_small_img>div:hover{
+    border-bottom: 2px solid black;
+}
+.shop_small_img img{
+    width: 100%;
+}
+/* 购物右边区域 */
+.shop_right{
+    width: 45%;
+position: absolute;
+right: 0;
+}
+/* 名称价格总体 */
+.shop_r_top{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(197, 191, 191);
+}
+.price_box{
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fee;
+}
+/* 价格 */
+.price span{
+    line-height: 50px;
+}
+.price span:nth-child(1){
+    font-size: 1.2rem;
+}
+.price span:nth-child(2){
+    text-decoration: line-through;
+    color: rgb(199, 195, 199);
+}
+/* 倒计时 */
+.dao_jishi{
+    display: flex;
+    flex-direction: row;
+   
+}
+.dao_jishi>span{
+    line-height: 50px;
+}
+.dao_box{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 14.5px 0;
+
+}
+.dao_box>span:nth-child(odd){
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+/* 发货  换新等.... */
+.shop_txt{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+   border-bottom: 1px solid rgb(197, 191, 191);
+}
+/* .shop_txt>div{
+    width: 60%;
+} */
+
+.shop_txt>div span:nth-child(1){
+    color: #6a6a6a;
+}
+/* 七天无理由 */
+.shop_wuliy{
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(197, 191, 191);
+}
+.shop_wuliy>span{
+    padding: 0 10px;
+}
+/* 颜色区域 */
+.shop_can{
+width: 100%;
+padding: 20px 0;
+}
+.color_list{
+width: 100%;
+height: 40px;
+display: flex;
+margin-top: 10px;
+flex-direction: row;
+justify-content: space-between;
+}
+.color_list>li{
+    width: 25%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid black;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+.color_list>li:hover{
+    border: 2px solid black;
+}
+.color_list>li:not(:first-child){
+    border: 1px solid rgb(192, 188, 188);
+}
+/* 存储参数 */
+.shop_can2>.color_list>li{
+    border: 2px dashed black;
+}
+.shop_can2>.color_list>li:not(:first-child){
+    border: 1px dashed rgb(192, 188, 188);
+}
+/* 数量区域 */
+.shop_num{
+    width: 100%;
+    
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.num_count{
+width: 30%;
+height: 50px;
+border: 1px solid black;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+}
+.num_count>span{
+    display: inline-block;
+    width: 33%;
+	cursor:pointer;
+	
+    line-height: 50px;
+    text-align: center;
+}
+/* 购买  */
+
+.shop_buy{
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+/* 版心 */
+.buy_center{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.buy_center>div{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+/* 购买参数 */
+
+/* 总计 */
+/* 加入购物车 购买 */
+.join_car>div{
+width: 45%;
+height: 50px;
+text-align: center;
+line-height: 50px;
+border: 1px solid black;
+cursor:pointer
+}
+.join_car>div:nth-child(1):hover{
+    background-color: black;
+    color: white;
+    /* border: 0; */
+}
+.join_car>div:nth-child(2){
+    border: 0;
+    background-color:#fec41b;
+    color:white;
+}
+.join_car>div:nth-child(2):hover{
+background-color: #d1a010;
+}
+/* 加入购物车提示 */
+.join_car_tip{
+    width: 250px;
+    font-size: 1.5rem;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    line-height: 80px;
+ position: fixed;
+ left: 50%;
+ margin-left: -125px;
+  top: 10px;
+   border-radius: 5px;
+   transition: 0.2s linear;
+}
+.join_cg{
+    height: 80px;
+}

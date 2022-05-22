@@ -1,0 +1,203 @@
+/* 头部 */
+.phone_head{
+    width: 100vw;
+    height: 32vh;
+}
+.phone_head img{
+    width: 100%;
+    height: 100%;
+   
+}
+/* 中心部分 */
+.phone_center{
+    width: 70vw;
+    margin: 0 auto;
+   padding-bottom: 5%;
+}
+/* 快捷链接 */
+.phone_center_top{
+    width: 60%;
+    height: 10vh;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.phone_center_top>a{
+    text-decoration: none;
+    color: black;
+   line-height: 10vh;
+}
+.phone_center_top>a:nth-child(1){
+    color: #fbc913;
+}
+/* 商品区 */
+/* 整个大区域 */
+.phone_box{
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+/* ul */
+.phone_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* background-color: #fff5ff; */
+}
+
+.phone_list li{
+    width: 22%;
+    height: 40vh;
+    margin-top: 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    transition: linear 0.2s;
+}
+.phone_list li:hover{
+    box-shadow: 2px 5px 20px #cfbccf;
+ 
+}
+/* li中心 */
+.list_main{
+width: 80%;
+box-sizing: border-box;
+padding: 5% 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+transition: linear 0.2s;
+}
+/* 商品图片 */
+.phone_img{
+    width: 80%;
+    height: 50%;
+    transition: linear 0.2s;
+}
+.list_main:hover{
+    margin-top: -5px;
+}
+/* .phone_img:hover{
+    margin-top: -5px;
+    width: 82%;
+    height: 52%;
+} */
+.phone_img img{
+    width: 100%;
+    height: 100%;
+}
+/* 商品名称 价格 */
+.phone_price{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.phone_price span:nth-child(2){
+    color: red;
+    font-weight: 1000;
+}
+/* 底部区 */
+.phone_foot_box{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 底部上方区 */
+.phone_foot_top{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+/* 底部中间 */
+.phone_foot_center{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.phone_foot_center ul li{
+    padding: 10px;
+}
+.phone_foot_center ul:not(:last-child) li:nth-child(1){
+    font-size: 1.2rem;;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+/* 客服电话区 */
+.foot_center_right li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foot_center_right li:nth-child(1) span:nth-child(1){
+   font-size: 2rem;
+   font-weight: 1000;
+}
+/* 客服 */
+.foot_center_right li:nth-child(2) span:nth-child(1)
+{
+    cursor: pointer;
+    transition: linear 0.2s;
+    border: 1px solid black;
+    padding: 8px 0;
+}
+
+.foot_center_right li:nth-child(2) span:nth-child(1):hover{
+    background-color: black;
+    color: white;
+}
+
+.foot_center_right li:last-child{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot_center_right li:last-child span{
+    font-size: 2rem;
+}
+/* 回到顶部 */
+.to_top{
+  
+    padding: 5px;
+    display: none;
+   
+}
+
+.xian_shi{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+   text-align: center;
+  line-height: 80px;
+   cursor: pointer;
+   border-radius: 50%;
+   transition: linear 0.2s;
+   background-color: #ada8ab;
+   opacity: 0.5;
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    display: block;
+    transform: rotateZ(-90deg);
+}
+.xian_shi:hover{
+ box-shadow: 0px 2px 15px;
+}

@@ -1,0 +1,195 @@
+* {
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+}
+
+#message {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* m_top栏--菜单栏和用户显示 */
+#m_top {
+    background-color: rgb(245, 245, 245);
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+/* top--菜单栏 */
+#top {
+    display: flex;
+    justify-content: flex-end;      /* 设置菜单栏右对齐*/
+    padding-top: 30px;
+}
+
+#top td:hover{
+    cursor: pointer;        /* 设置鼠标悬停样式*/
+    opacity: 0.7;
+}
+
+#top #top_m {
+    color: rgb(80, 80, 80);
+    font-size: 13px;
+}
+
+#top_m table td {
+    padding-left: 20px;
+}
+
+#top_m img {
+    width: 15px;
+    height: 15px;
+}
+
+/* middle栏--用户信息 */
+#middle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;         /* 设置两端对齐*/
+}
+
+#m_left {
+    color: rgb(40, 40, 40);
+    font-size: 14px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start;            /* 设置昵称和电话左对齐*/
+    align-items: center;
+
+}
+
+.m_user_img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+#m_left table {
+    margin-left: 10px;
+}
+
+.m_user_text {
+    font-size: 18px;
+}
+
+/* 积分 */
+.m_wright_img {
+    width: 16px;
+    height: 16px;
+}
+
+.m_wright_img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#m_left img,#m_left td:hover{
+    cursor: default;
+}
+
+#m_right {
+    background-color: white;
+    width: 100px;
+    height: 80px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#m_right span {
+    font-size: 20px;
+    vertical-align: middle;
+     color: rgb(5, 120, 34);
+    margin-left: 23px; 
+    
+}
+
+#m_right img {
+    width: 25px;
+    height: 25px;
+    margin-left: 33px;
+    margin-top: 13px; 
+}
+#m_right img,#m_right span:hover{
+    cursor: default;
+}
+
+/* bottom栏--信息列表 */
+#bottom{
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    font-size: 8px;
+}
+
+#bottom .bottom_msg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#bottom .b_left{
+    margin-left: 20px;
+}
+
+#bottom .b_left img{
+    width: 30px;
+    height: 30px;
+}
+
+#bottom .b_left .b_text_big{
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.b_text_big,.b_text_small{
+    padding-left: 20px;
+}
+
+#bottom .b_left .b_text_small{
+    color: rgb(80, 80, 80);
+}
+
+#bottom .b_right{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(233, 184, 39);
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#bottom .b_hr{
+    margin-left: 72px;
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid rgb(240, 237, 237);       /* 设置hr属性，只要上边框*/
+}
+
+.b_left img,.b_text_big,.b_text_small:hover{
+    cursor: default;
+}
+
+.b_right:hover{
+    opacity: 0.7;
+    cursor: default;
+}
+
+/* 版权 */
+#copyright{         
+    width: 100%;
+    height: 20%;
+    font-size: 5px;
+    color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

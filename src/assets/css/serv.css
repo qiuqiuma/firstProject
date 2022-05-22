@@ -1,0 +1,193 @@
+/* 顶部搜索区 */
+.serv_top{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+.serv_top img{
+    width: 100%;
+    height: 100%;
+}
+/* 图片中间内容 */
+.ser_top_msg{
+    position: absolute;
+    width: 30vw;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    margin-left: -15vw;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.ser_top_msg>span{
+    font-size: 2.5rem;
+    font-weight: 1200;
+    color: white;
+    padding-bottom: 3%;
+}
+.ser_top_msg>input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    opacity: 0.5;
+}
+.ser_top_msg>input:hover{
+    opacity: 0.8;
+}
+/* 搜索提示框 */
+.tip_box{
+    text-align: left;
+    width: 100%;
+    opacity: 0.9;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: none;
+}
+.tip_box>li{
+    padding: 5px 0;
+    cursor: pointer;
+}
+.tip_box>li:hover{
+    color: #d1cbb6;
+}
+.tip_box>li:nth-child(1){
+    color: #9b9b9b;
+}
+/* 在线服务区 */
+.serv_center_box{
+    margin: 0;
+    width: 100vw;
+    /* height: 60vh; */
+    background-color: rgb(228, 225, 225);
+}
+.serv_center,.serv_tui{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+    text-align: center;
+}
+/* 列表 */
+.serv_center_list{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.serv_center_list li{
+    padding: 63px 0;
+    background-color: #fff;
+    width: 22%;
+	cursor: pointer;
+    height: 30%;
+    margin-bottom: 2%;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	transition: linear 0.2s
+}
+.serv_center_list li>span{
+	padding: 3%;
+}
+.serv_center_list li:hover{
+	box-shadow: 0 2px 15px;
+}
+/* 图标大小 */
+.serv_center_list>li .iconfont3,.icon-sousuo{
+    font-size: 3.3rem;
+}
+/* .serv_center_list>li span:nth-child(2){
+    font-size: 2.2rem;
+} */
+/* 常见问题 */
+.serv_pro{
+    widows: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.serv_pro_list{
+  
+    width: 70%;
+    margin: 0 auto;
+}
+.serv_pro_list>li{
+width: 90%;
+margin: 0 auto;
+padding: 10px 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+cursor: pointer;
+}
+.serv_pro_list>li:hover{
+    color: #fcca1d;
+}
+/* 精选推荐 */
+.tui_box{
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+	flex-direction: row;
+	justify-content: space-between;
+}
+/* 左边图片 */
+.tui_img{
+	width: 40%;
+}
+.tui_img img{
+	width: 100%;
+}
+/* 文字 */
+.tui_txt{
+	width: 50%;
+	text-align: left;
+	margin-top: 4%;
+}
+/* realme客户服务网点 */
+.serv_wang_box{
+	width: 100vw;
+	padding: 10% 0;
+	 background-color: rgb(228, 225, 225);
+	 text-align: center;
+}
+/* 列表 */
+.wang_list{
+	width: 50%;
+	margin: 0 auto;
+padding-top: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.wang_list li{
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+	cursor: pointer;
+	justify-content: space-between;
+}
+.wang_list li>span:nth-child(1){
+	margin-bottom: 10px;
+}
+.wang_list li>.iconfont3{
+	font-size: 2rem;
+}
+/* 客服图标 */
+.serv_con{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+line-height: 60px;
+background-color: aqua;
+position: fixed;
+right: 10px;
+bottom: 10vh;
+opacity: 0.5;
+cursor: pointer;
+}

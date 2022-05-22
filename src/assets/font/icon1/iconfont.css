@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1637819454435') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fabu:before {
+  content: "\e60f";
+}
+
+.icon-qq:before {
+  content: "\e65b";
+}
+
+.icon-sousuo:before {
+  content: "\e651";
+}
+
+.icon-shouji:before {
+  content: "\e692";
+}
+
+.icon-qian:before {
+  content: "\e631";
+}
+
+.icon-xiala:before {
+  content: "\e68f";
+}
+
+.icon-huowuw:before {
+  content: "\e630";
+}
+
+.icon-weibo:before {
+  content: "\e62d";
+}
+
+.icon-facebook:before {
+  content: "\e676";
+}
+
+.icon-rili:before {
+  content: "\e63f";
+}
+
+.icon-200yonghu_yonghu:before {
+  content: "\e63c";
+}
+
+.icon-kefu:before {
+  content: "\e625";
+}
+
+.icon-zhengpinbaozheng:before {
+  content: "\e639";
+}
+
+.icon-zhifeiji:before {
+  content: "\e681";
+}
+
+.icon-jinri:before {
+  content: "\e899";
+}
+
+.icon-weixin:before {
+  content: "\e8bb";
+}
+
+.icon-denglu:before {
+  content: "\e7c8";
+}
+
+
+

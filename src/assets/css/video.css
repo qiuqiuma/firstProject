@@ -1,0 +1,31 @@
+.video_box{
+    width: 60vw;
+    
+    margin: 10vh auto;
+ 
+    position: relative;
+}
+.close_box{
+    position: absolute;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   cursor: pointer;
+    font-size: 2rem;
+   right: 0;
+   top: 0;
+   transition: linear 0.2s;
+
+}
+.close_box:hover{
+font-size: 2.5rem;
+
+}
+.video_msg{
+    padding-top: 5%;
+    width: 100%;
+}
+.video_msg video{
+    width: 100%;
+}
